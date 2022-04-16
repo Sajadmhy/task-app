@@ -44,7 +44,7 @@ class App extends Component {
           <label htmlFor="taskInput">
             Enter task
           </label>
-          <input type="text" id="taskInput" onChange={this.handleChange} />
+          <input type="text" id="taskInput" value={task.text} onChange={this.handleChange} />
           <button type="submit">
             Add Task
           </button>
